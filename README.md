@@ -1,6 +1,11 @@
-# Getting Started with Create React App
+Punk-GPT, a Chat-GPT clone
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+This is a clone of Chat-GPT using a very simple React.js frontend which makes calls to a Node.js Express endpoint which in turn makes calls to OpenAI's chat completions API with a private API key. To run the project locally all you need is your own OpenAI API key saved in the .env file.
+
+The GPT Model, token limits or additional message content (for additionl context) can be altered in the options variable of server.js file.
+
 
 ## Available Scripts
 
